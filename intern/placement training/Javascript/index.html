@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript</title>
+
+    <script>
+
+        // VAR
+        var age = 20;
+        age = 30;
+        var age = 40;
+
+        console.log("Age:", age);
+
+
+        // LET
+        let course = "mern";
+        course = "dsa";
+
+        console.log("Course:", course);
+
+
+        // CONST
+        const college = "Sri Eshwar College of Engineering";
+
+        console.log("College:", college);
+
+
+        // LOGIN
+        let username = "sri";
+        let password = "12345678";
+
+        if (username == "sri" && password == "12345678") {
+            console.log("login successful");
+        } else {
+            console.log("login failed");
+        }
+
+
+        // STUDENT FUNCTION
+        function student(name, college = "Sri Eshwar") {
+            console.log(`hello ${name} welcome to ${college} college`);
+        }
+
+        student('sri', 'Sri Eshwar');
+        student('kumar', 'Sri Eshwar');
+        student('karthik', 'Sri Eshwar');
+        student('siva', 'Sri Eshwar');
+
+
+        // EMPLOYEE FUNCTION
+        function employee(name, company = "Google") {
+            console.log(`Hello ${name}, welcome to ${company} company`);
+        }
+
+        employee('Sakthi', 'Zoho');
+        employee('Kumar', 'Microsoft');
+        employee('Siva', 'Google');
+        employee('Karthik');
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
